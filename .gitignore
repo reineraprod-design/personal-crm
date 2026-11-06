@@ -1,6 +1,7 @@
-# Env files stay local, including .env.example
+# Secrets: real values live only in local env files
 .env
 .env.*
+!.env.example
 
 # dependencies
 /node_modules
